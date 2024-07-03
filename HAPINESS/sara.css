@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.city{
+ position: relative;
+ background: url(thecity.png);
+ height: 100vh;
+ width: 100%;
+ background-size: cover;
+ background-position: 0 0;
+ background-repeat: repeat-x;
+ animation: animate 5s linear infinite;
+
+}
+.car{
+    bottom: 0px;
+    position: absolute;
+}
+@keyframes animate{
+
+ from {
+background-position: 0 0;
+}
+to{
+    background-position: 100% 0;
+}
+}
